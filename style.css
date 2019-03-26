@@ -1,0 +1,105 @@
+/*CORPS DE LA PAGE*/
+body
+{
+background-color: #f2f1e7;
+}
+
+/*HEADER*/
+.nav
+{
+  background-color: #f2f1e7;
+}
+
+.nav-link
+{
+  color: #915b4a;
+}
+
+.nav-link:hover
+{
+  color:  #000000;
+}
+
+/*LE JUMBOTRON*/
+
+.jumbotron
+{
+  background-image: url(images/image1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  box-shadow: 10px 10px 10px 8px grey;
+}
+
+h1
+{
+  color: #915b4a;
+  font-size: 50px;
+
+}
+
+#one
+{
+  color:#915b4a;
+  font-size: 20px;
+  text-align: left;
+}
+
+.btn
+{
+  background-color:#915b4a;
+  color:#f2f1e7;
+
+
+
+
+}
+
+/*LE SEPARATEUR*/
+.d-block
+{
+  background-color: #5c4d4d;
+
+}
+.section
+{
+  background-color: #f2f1e7;
+}
+
+h2
+{
+  text-transform: uppercase;
+
+}
+
+/*PARTIE A PROPOS*/
+.textabout
+{
+  font-size: 15px;
+  text-align: center;
+  text-align: justify;
+  border: 3px solid #5c4d4d;
+  margin-bottom: 10px;
+  padding: 10px 10px 10px 10px;
+  box-shadow:  10px -10px 18px  grey;
+
+}
+
+.about
+{
+  box-shadow:  -10px -10px 18px  grey;
+}
+img
+{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 550px;
+height: 350px;
+margin-bottom:  50px;
+margin-top: -10px;
+box-shadow: 8px 12px 18px #5c4d4d;
+
+
+
+}
