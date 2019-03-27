@@ -33,7 +33,7 @@ background-color: #f2f1e7;
 
 h1
 {
-  color: #915b4a;
+  color: #f2f1e7;
   font-size: 50px;
 
 }
@@ -78,7 +78,7 @@ h2
   font-size: 15px;
   text-align: center;
   text-align: justify;
-  border: 3px solid #5c4d4d;
+  border: 3px solid #915b4a;
   margin-bottom: 10px;
   padding: 10px 10px 10px 10px;
   box-shadow:  10px -10px 18px  grey;
@@ -86,10 +86,12 @@ h2
 }
 
 .about
+
 {
   box-shadow:  -10px -10px 18px  grey;
 }
-img
+
+.me
 {
 display: block;
 margin-left: auto;
@@ -99,7 +101,33 @@ height: 350px;
 margin-bottom:  50px;
 margin-top: -10px;
 box-shadow: 8px 12px 18px #5c4d4d;
+}
 
+/*PARTIE MON PARCOURS*/
+/*MES ETUDES*/
 
+h3
+{
+  color: #5c4d4d;
+}
+.stude
+{
+  border : 1px solid #f2f1e7;
+  box-shadow:8px 12px 18px #5c4d4d;
+}
 
+.graduateicon
+{
+padding: 15px 15px 15px 15px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.arrowicon
+{
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
