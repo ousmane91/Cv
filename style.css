@@ -35,7 +35,6 @@ h1
 {
   color: #f2f1e7;
   font-size: 50px;
-
 }
 
 #one
@@ -49,10 +48,6 @@ h1
 {
   background-color:#915b4a;
   color:#f2f1e7;
-
-
-
-
 }
 
 /*LE SEPARATEUR*/
@@ -69,7 +64,6 @@ h1
 h2
 {
   text-transform: uppercase;
-
 }
 
 /*PARTIE A PROPOS*/
@@ -78,18 +72,17 @@ h2
   font-size: 15px;
   text-align: center;
   text-align: justify;
-  border: 3px solid #915b4a;
+  border: 3px solid #f2f1e7;
   margin-bottom: 10px;
-  padding: 10px 10px 10px 10px;
-  box-shadow:  10px -10px 18px  grey;
-
+  padding: 15px 15px 15px 15px;
+  box-shadow:  10px 10px 10px  grey;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
-.about
 
-{
-  box-shadow:  -10px -10px 18px  grey;
-}
+
+
 
 .me
 {
@@ -100,7 +93,7 @@ h2
   height: 350px;
   margin-bottom:  50px;
   margin-top: -10px;
-  box-shadow: 8px 12px 18px #5c4d4d;
+  box-shadow: 8px 12px 18px #f2f1e7;
 }
 
 /*PARTIE MON PARCOURS*/
@@ -157,3 +150,9 @@ h3
 }
 
 /*FOOTER*/
+
+#contact
+{
+  background-color:#5c4d4d;
+  box-shadow:8px 12px 18px #5c4d4d;
+}
