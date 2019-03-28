@@ -86,11 +86,11 @@ h2
 
 .me
 {
-  display: block;
+  /*display: block;
   margin-left: auto;
   margin-right: auto;
   width: 550px;
-  height: 350px;
+  height: 350px;*/
   margin-bottom:  50px;
   margin-top: -10px;
   box-shadow: 8px 12px 18px #f2f1e7;
@@ -106,7 +106,7 @@ h3
 .stude
 {
   border : 1px solid #f2f1e7;
-  box-shadow:8px 12px 18px #5c4d4d;
+  box-shadow:8px 12px 40px #5c4d4d;
 }
 
 .graduateicon
