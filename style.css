@@ -8,16 +8,18 @@ body
 .nav
 {
   background-color: #f2f1e7;
+
 }
 
 .nav-link
 {
   color: #915b4a;
+  font-family:'munsonregular';
 }
 
 .nav-link:hover
 {
-  color:  #000000;
+  color:  #5c4d4d;
 }
 
 /*LE JUMBOTRON*/
@@ -28,13 +30,14 @@ body
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  box-shadow: 10px 10px 10px 8px grey;
+  box-shadow: 10px 10px 10px 2px grey;
 }
 
 h1
 {
   color: #f2f1e7;
   font-size: 50px;
+  font-family:'munsonregular';
 }
 
 #one
@@ -42,12 +45,14 @@ h1
   color:#915b4a;
   font-size: 20px;
   text-align: left;
+  font-family:'munsonregular';
 }
 
 .btn
 {
   background-color:#915b4a;
   color:#f2f1e7;
+  font-family:'munsonregular';
 }
 
 /*LE SEPARATEUR*/
@@ -64,6 +69,7 @@ h1
 h2
 {
   text-transform: uppercase;
+  font-family:'munsonregular';
 }
 
 /*PARTIE A PROPOS*/
@@ -78,11 +84,9 @@ h2
   box-shadow:  10px 10px 10px  grey;
   margin-left: 20px;
   margin-right: 20px;
+  font-family:'happy_times_at_the_ikobRg';
+  font-size:  18px;
 }
-
-
-
-
 
 .me
 {
@@ -102,11 +106,14 @@ h2
 h3
 {
   color: #5c4d4d;
+  font-family:'munsonregular';
+
 }
 .stude
 {
-  border : 1px solid #f2f1e7;
+
   box-shadow:8px 12px 40px #5c4d4d;
+  text-align: center;
 }
 
 .graduateicon
@@ -149,10 +156,127 @@ h3
   margin-right: auto;
 }
 
+/*DESIGN BARRE DE POURCENTAGE*/
+.html
+{
+  background-color: red;
+  font-family: 'happy_times_at_the_ikobRg';
+  font-size: 18px;
+}
+
+.css
+{
+  background-color:  #609bd6 ;
+  font-family: 'happy_times_at_the_ikobRg';
+  font-size: 18px;
+}
+
+.wordpress
+{
+  background-color:  #2c4864;
+  font-family: 'happy_times_at_the_ikobRg';
+  font-size: 18px;
+}
+
+.bootstrap
+{
+  background-color: #563d7c;
+  font-family: 'happy_times_at_the_ikobRg';
+  font-size: 18px;
+}
+
+.adobexd
+{
+  background-color: #2d001d;
+  font-family: 'happy_times_at_the_ikobRg';
+  font-size: 18px;
+}
+
+.mwebsite
+{
+  background-color:  #d8d074 ;
+  font-family: 'happy_times_at_the_ikobRg';
+  font-size: 18px;
+}
+
+.mlandingpage
+{
+  background-color:  #acda77 ;
+  font-family: 'happy_times_at_the_ikobRg';
+  font-size: 18px;
+}
+
 /*FOOTER*/
 
 #contact
 {
   background-color:#5c4d4d;
   box-shadow:8px 12px 18px #5c4d4d;
+  text-align: center;
+}
+
+#contact p
+{
+  color:#f2f1e7;
+}
+
+#contact a
+{
+  color:#f2f1e7;
+}
+
+#contact a:hover
+{
+  color: orange;
+}
+
+footer p
+{
+  color: #f2f1e7;
+}
+/*POLICES GENERAL*/
+
+@font-face {
+  font-family: 'happy_times_at_the_ikobRg';
+  src: url('fonts/happy-times-at-the-ikob-webfont.eot');
+  src: url('fonts/happy-times-at-the-ikob-webfont.eot?#iefix') format('embedded-opentype'),
+  url('fonts/happy-times-at-the-ikob-webfont.woff2') format('woff2'),
+  url('fonts/happy-times-at-the-ikob-webfont.woff') format('woff'),
+  url('fonts/happy-times-at-the-ikob-webfont.ttf') format('truetype'),
+  url('fonts/happy-times-at-the-ikob-webfont.svg#happy_times_at_the_ikobRg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'munsonregular';
+  src: url('munson_roman-webfont.eot');
+  src: url('munson_roman-webfont.eot?#iefix') format('embedded-opentype'),
+  url('munson_roman-webfont.woff2') format('woff2'),
+  url('munson_roman-webfont.woff') format('woff'),
+  url('munson_roman-webfont.ttf') format('truetype'),
+  url('munson_roman-webfont.svg#munsonregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+/*GENERAL*/
+p
+{
+  font-family: 'happy_times_at_the_ikobRg';
+  font-size: 18px;
+  color:  #5c4d4d;
+}
+
+a
+{
+  color: #915b4a;
+  font-family: 'happy_times_at_the_ikobRg';
+  font-size: 18px;
+}
+
+a:hover
+{
+  color:  #5c4d4d;
 }
