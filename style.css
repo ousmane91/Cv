@@ -156,6 +156,14 @@ h3
   margin-right: auto;
 }
 
+.project
+{
+  padding: 15px 15px 15px 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /*DESIGN BARRE DE POURCENTAGE*/
 .html
 {
@@ -228,6 +236,30 @@ h3
 #contact a:hover
 {
   color: orange;
+}
+
+.mailicon
+{
+  padding: 15px 15px 15px 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.instaicon
+{
+  padding: 15px 15px 15px 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.telicon
+{
+  padding: 15px 15px 15px 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 footer p
